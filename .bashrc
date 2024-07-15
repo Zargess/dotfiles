@@ -125,3 +125,7 @@ eval "$(atuin init bash)"
 
 # alias for git handling .cfg
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# PS1 settings
+export PS1=" \[\033[1;36m\]\w >\[\033[1;34m\]>\[\033[0m\] "
+
