@@ -1,20 +1,20 @@
 [/]
 alttab-switcher-delay=100
 desklet-snap-interval=25
-enabled-applets=['panel1:left:1:separator@cinnamon.org:1', 'panel1:left:2:grouped-window-list@cinnamon.org:2', 'panel1:right:2:systray@cinnamon.org:3', 'panel1:right:3:xapp-status@cinnamon.org:4', 'panel1:right:4:notifications@cinnamon.org:5', 'panel1:right:5:printers@cinnamon.org:6', 'panel1:right:6:removable-drives@cinnamon.org:7', 'panel1:right:7:keyboard@cinnamon.org:8', 'panel1:right:8:favorites@cinnamon.org:9', 'panel1:right:10:network@cinnamon.org:10', 'panel1:right:9:sound@cinnamon.org:11', 'panel1:right:11:power@cinnamon.org:12', 'panel1:center:0:calendar@cinnamon.org:13', 'panel1:right:13:cornerbar@cinnamon.org:14', 'panel1:right:1:workspace-switcher@cinnamon.org:15', 'panel1:left:0:Cinnamenu@json:30', 'panel1:right:12:sessionManager@scollins:33']
+enabled-applets=['panel1:left:1:separator@cinnamon.org:1', 'panel1:left:2:grouped-window-list@cinnamon.org:2', 'panel1:right:2:systray@cinnamon.org:3', 'panel1:right:3:xapp-status@cinnamon.org:4', 'panel1:right:4:notifications@cinnamon.org:5', 'panel1:right:5:printers@cinnamon.org:6', 'panel1:right:6:removable-drives@cinnamon.org:7', 'panel1:right:7:keyboard@cinnamon.org:8', 'panel1:right:8:favorites@cinnamon.org:9', 'panel1:right:10:network@cinnamon.org:10', 'panel1:right:9:sound@cinnamon.org:11', 'panel1:right:11:power@cinnamon.org:12', 'panel1:center:0:calendar@cinnamon.org:13', 'panel1:right:13:cornerbar@cinnamon.org:14', 'panel1:right:1:workspace-switcher@cinnamon.org:15', 'panel1:right:12:ShutdownApplet@DeathMD:35']
 enabled-desklets=@as []
 enabled-extensions=['transparent-panels@germanfr']
 favorite-apps=['google-chrome.desktop', 'code.desktop', 'steam.desktop', 'com.ktechpit.whatsie.desktop:flatpak', 'org.signal.Signal.desktop:flatpak', 'com.discordapp.Discord.desktop:flatpak', 'keepass2.desktop', 'mintinstall.desktop', 'org.gnome.Terminal.desktop', 'cinnamon-settings.desktop', 'mintbackup.desktop', 'timeshift-gtk.desktop', 'nemo.desktop']
-next-applet-id=34
+next-applet-id=36
 next-desklet-id=1
 panel-edit-mode=false
 panel-launchers=['DEPRECATED']
-panel-zone-icon-sizes='[{"panelId":1,"left":0,"center":0,"right":24},{"left":0,"center":0,"right":0,"panelId":2},{"left":0,"center":0,"right":0,"panelId":3}]'
+panel-zone-icon-sizes='[{"panelId": 1, "left": 0, "center": 0, "right": 16}, {"left": 0, "center": 0, "right": 0, "panelId": 2}, {"left": 0, "center": 0, "right": 0, "panelId": 3}]'
 panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 28, "center": 28, "right": 16}, {"left": 28, "center": 28, "right": 28, "panelId": 2}, {"left": 28, "center": 28, "right": 28, "panelId": 3}]'
 panel-zone-text-sizes='[{"panelId":1,"left":0,"center":0,"right":0},{"left":0,"center":0,"right":0,"panelId":2},{"left":0,"center":0,"right":0,"panelId":3}]'
 panels-autohide=['1:false', '2:false', '3:false', '4:false']
-panels-enabled=['1:0:bottom', '2:2:bottom', '3:1:bottom']
-panels-height=['1:40', '2:40', '3:40', '4:26']
+panels-enabled=['1:0:top', '2:2:bottom', '3:1:bottom']
+panels-height=['1:32', '2:40', '3:40', '4:26']
 panels-hide-delay=['1:0', '2:0', '3:0', '4:0']
 panels-show-delay=['1:0', '2:0', '3:0', '4:0']
 
