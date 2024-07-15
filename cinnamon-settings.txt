@@ -1,0 +1,102 @@
+[/]
+alttab-switcher-delay=100
+desklet-snap-interval=25
+enabled-applets=['panel1:left:1:separator@cinnamon.org:1', 'panel1:left:2:grouped-window-list@cinnamon.org:2', 'panel1:right:2:systray@cinnamon.org:3', 'panel1:right:3:xapp-status@cinnamon.org:4', 'panel1:right:4:notifications@cinnamon.org:5', 'panel1:right:5:printers@cinnamon.org:6', 'panel1:right:6:removable-drives@cinnamon.org:7', 'panel1:right:7:keyboard@cinnamon.org:8', 'panel1:right:8:favorites@cinnamon.org:9', 'panel1:right:10:network@cinnamon.org:10', 'panel1:right:9:sound@cinnamon.org:11', 'panel1:right:11:power@cinnamon.org:12', 'panel1:center:0:calendar@cinnamon.org:13', 'panel1:right:13:cornerbar@cinnamon.org:14', 'panel1:right:1:workspace-switcher@cinnamon.org:15', 'panel1:left:0:Cinnamenu@json:30', 'panel1:right:12:sessionManager@scollins:33']
+enabled-desklets=@as []
+enabled-extensions=['transparent-panels@germanfr']
+favorite-apps=['google-chrome.desktop', 'code.desktop', 'steam.desktop', 'com.ktechpit.whatsie.desktop:flatpak', 'org.signal.Signal.desktop:flatpak', 'com.discordapp.Discord.desktop:flatpak', 'keepass2.desktop', 'mintinstall.desktop', 'org.gnome.Terminal.desktop', 'cinnamon-settings.desktop', 'mintbackup.desktop', 'timeshift-gtk.desktop', 'nemo.desktop']
+next-applet-id=34
+next-desklet-id=1
+panel-edit-mode=false
+panel-launchers=['DEPRECATED']
+panel-zone-icon-sizes='[{"panelId":1,"left":0,"center":0,"right":24},{"left":0,"center":0,"right":0,"panelId":2},{"left":0,"center":0,"right":0,"panelId":3}]'
+panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 28, "center": 28, "right": 16}, {"left": 28, "center": 28, "right": 28, "panelId": 2}, {"left": 28, "center": 28, "right": 28, "panelId": 3}]'
+panel-zone-text-sizes='[{"panelId":1,"left":0,"center":0,"right":0},{"left":0,"center":0,"right":0,"panelId":2},{"left":0,"center":0,"right":0,"panelId":3}]'
+panels-autohide=['1:false', '2:false', '3:false', '4:false']
+panels-enabled=['1:0:bottom', '2:2:bottom', '3:1:bottom']
+panels-height=['1:40', '2:40', '3:40', '4:26']
+panels-hide-delay=['1:0', '2:0', '3:0', '4:0']
+panels-show-delay=['1:0', '2:0', '3:0', '4:0']
+
+[desktop/background]
+picture-options='zoom'
+picture-uri='file:///home/zargess/Pictures/m23bwh4n0x151.png'
+
+[desktop/background/slideshow]
+delay=15
+image-source='directory:///home/zargess/Pictures'
+
+[desktop/interface]
+cursor-blink-time=1200
+cursor-size=24
+cursor-theme='Bibata-Modern-Classic'
+gtk-theme='Mint-Y-Dark-Orange'
+icon-theme='Mint-Y-Yaru'
+
+[desktop/keybindings]
+custom-list=['custom0', '__dummy__']
+looking-glass-keybinding=@as []
+
+[desktop/keybindings/custom-keybindings/custom0]
+binding=['<Primary>space']
+command='rofi -combi-modi window,drun,ssh,filebrowser -theme rounded-orange-dark -font "hack 10" -show combi -icon-theme "Papirus" -show-icons'
+name='Rofi'
+
+[desktop/keybindings/media-keys]
+screensaver=['<Super>l', 'XF86ScreenSaver']
+
+[desktop/keybindings/wm]
+switch-to-workspace-up=['<Control><Alt>Up']
+
+[desktop/peripherals/keyboard]
+delay=uint32 500
+repeat-interval=uint32 30
+
+[desktop/peripherals/mouse]
+double-click=400
+drag-threshold=8
+speed=-0.47058823529411764
+
+[desktop/peripherals/touchpad]
+speed=0.0
+
+[desktop/sound]
+event-sounds=false
+
+[desktop/wm/preferences]
+min-window-opacity=30
+mouse-button-modifier=''
+num-workspaces=4
+workspace-names=@as []
+
+[gestures]
+swipe-down-2='PUSH_TILE_DOWN::end'
+swipe-down-3='TOGGLE_OVERVIEW::end'
+swipe-down-4='VOLUME_DOWN::end'
+swipe-left-2='PUSH_TILE_LEFT::end'
+swipe-left-3='WORKSPACE_NEXT::end'
+swipe-left-4='WINDOW_WORKSPACE_PREVIOUS::end'
+swipe-right-2='PUSH_TILE_RIGHT::end'
+swipe-right-3='WORKSPACE_PREVIOUS::end'
+swipe-right-4='WINDOW_WORKSPACE_NEXT::end'
+swipe-up-2='PUSH_TILE_UP::end'
+swipe-up-3='TOGGLE_EXPO::end'
+swipe-up-4='VOLUME_UP::end'
+tap-3='MEDIA_PLAY_PAUSE::end'
+
+[muffin]
+draggable-border-width=10
+
+[settings-daemon/peripherals/keyboard]
+numlock-state='off'
+
+[settings-daemon/plugins/power]
+lid-close-ac-action='suspend'
+lid-close-battery-action='suspend'
+sleep-display-ac=1800
+sleep-display-battery=1800
+sleep-inactive-ac-timeout=0
+sleep-inactive-battery-timeout=0
+
+[theme]
+name='Mint-Y-Dark-Orange'
