@@ -40,7 +40,7 @@ installed-apps=['apt:atuin', 'apt:btop', 'apt:build-essential', 'apt:cmatrix', '
 default-repo-is-ok=true
 hide-kernel-update-warning=true
 install-last-run=1721822228
-refresh-last-run=1721824148
+refresh-last-run=1721828847
 show-welcome-page=false
 window-height=570
 window-pane-position=344
@@ -154,11 +154,12 @@ next-applet-id=22
 next-desklet-id=1
 panel-edit-mode=false
 panel-launchers=['DEPRECATED']
-panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 28, "center": 28, "right": 16}]'
-panel-zone-text-sizes='[{"panelId": 1, "left": 0.0, "center": 12.0, "right": 0.0}]'
+panel-zone-icon-sizes='[{"panelId": 1, "left": 0, "center": 0, "right": 16}]'
+panel-zone-symbolic-icon-sizes='[{"panelId": 1, "left": 22, "center": 28, "right": 16}]'
+panel-zone-text-sizes='[{"panelId": 1, "left": 0.0, "center": 11.0, "right": 0.0}]'
 panels-autohide=['1:false']
 panels-enabled=['1:0:top']
-panels-height=['1:32']
+panels-height=['1:26']
 
 [org/cinnamon/desktop/a11y/applications]
 screen-keyboard-enabled=false
@@ -544,7 +545,7 @@ volumes-visible=false
 show-hidden-files=false
 
 [org/nemo/window-state]
-geometry='1078x695+109+130'
+geometry='1078x695+142+162'
 maximized=false
 sidebar-bookmark-breakpoint=5
 start-with-sidebar=true
